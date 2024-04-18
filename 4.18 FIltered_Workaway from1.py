@@ -196,7 +196,7 @@ def get_one_data(url):
     }
     return item
 
-def first_get(start_category='1'):
+def first_get(start_category='40'):
     c_list = ['36','38','37','31','18','40','1','14','34','29','17','28','33','35','19','39']
     headers = {
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
@@ -258,5 +258,5 @@ def first_get(start_category='1'):
                 append_to_json(filename, item)
 
 # 保存文件名  
-filename = '4.11Filtered_workaway.json'        
-first_get(start_category='1')
+filename = '4.18Filtered_workaway.json'        
+first_get(start_category='40')
